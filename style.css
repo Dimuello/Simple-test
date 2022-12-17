@@ -1,0 +1,146 @@
+h1, h4 {
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+h2 {
+    margin: 0px;
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 40px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+a {
+    font-family: sans-serif;
+    color: whitesmoke;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.select-test {
+    padding-top: 13rem;
+}
+
+.select-test,
+.geography-test,
+.mathematics-test {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-block {
+    align-items: center;
+    display: flex;
+}
+
+.select-btn {
+    margin: 0px 10px;
+    padding: 15px 15px;
+    background: none;
+    background-color: #804bb1;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.select-btn:hover {
+    cursor: pointer;
+    background-color: #8453b3;
+}
+
+.select-btn:active {
+    background-color: #824cb6;
+}
+
+.btn-show-result {
+    margin: 0px 10px;
+    padding: 12px 17px;
+    margin-bottom: 20px;
+    background: none;
+    background-color: #804bb1;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: whitesmoke;
+}
+
+.btn-show-result:hover {
+    cursor: pointer;
+    background-color: #8453b3;
+}
+
+.btn-show-result:active {
+    background-color: #824cb6;
+}
+
+.simple-test {
+    display: flex;
+}
+
+.answer-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.geography-test {
+    padding-top: 0rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.answer-item {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.form-input {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: transparent;
+    background-color: #dddddd;
+}
+
+/* .form-input:hover {
+    border: 1px solid rgb(41, 41, 41);
+} */
+
+.back-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2b2b2b;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
